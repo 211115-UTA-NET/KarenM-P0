@@ -1,0 +1,53 @@
+LOTSOFCUPS
+Product(POSSIBLE ADDITIONS smart waterbottle, regular mug, custom, stainless steel, eco, collapsible)
+
+CUP
++color
++size
++price
+
+SMARTCOFFEEMUG
+price $50 each
+__color = purple, grey
+__size = small, big
+option 1-4
+1. purple small
+2. purple big
+3. grey small
+4. grey big
+if 1
+item is purple small
+price 50
+
+if 2
+item is purple big
+price 50
+
+if 3 
+item is grey small
+priec 50
+
+if 4 
+item is grey big
+
+else 
+invalid input???
+
+
+
+CUSTOMER
++name
++items
+
+ORDERING(get stuff from customer which has items selected)
++total
++customername
++create a histroy???
++add/remove prouducts
+
+________________________________________________________________________
+
+
+
+
+	

@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\bin\Debug\net6.0\LOTSOFCUPS.App.exe
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\bin\Debug\net6.0\LOTSOFCUPS.App.deps.json
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\bin\Debug\net6.0\LOTSOFCUPS.App.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\bin\Debug\net6.0\LOTSOFCUPS.App.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\bin\Debug\net6.0\ref\LOTSOFCUPS.App.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\bin\Debug\net6.0\LOTSOFCUPS.App.pdb
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\ref\LOTSOFCUPS.App.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.pdb
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS\LOTSOFCUPS.App\obj\Debug\net6.0\LOTSOFCUPS.App.genruntimeconfig.cache

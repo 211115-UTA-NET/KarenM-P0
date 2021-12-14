@@ -1,10 +1,11 @@
 LOTSOFCUPS
 Product(POSSIBLE ADDITIONS smart waterbottle, regular mug, custom, stainless steel, eco, collapsible)
+(total number of products 8 is my inventory. 2 of each)
++color (can be added)
++size (two sizes)
++price (subject to change)
 
-CUP
-+color
-+size
-+price
+
 
 SMARTCOFFEEMUG
 price $50 each
@@ -35,13 +36,19 @@ invalid input???
 
 
 
+
+
 CUSTOMER
 +name
+get set
 +items
+get
 
 ORDERING(get stuff from customer which has items selected)
 +total
+(user inputs + inputs + inputs = total)
 +customername
+get name
 +create a histroy???
 +add/remove prouducts
 

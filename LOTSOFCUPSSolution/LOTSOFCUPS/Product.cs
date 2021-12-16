@@ -6,21 +6,28 @@ using System.Threading.Tasks;
 
 namespace LOTSOFCUPS
 {
-    internal class Product
+    public class Product
     {
         private int productID { get; set; }
-        string? name;
-        decimal price;
-        int size;
-    }
+        string? cupName { get; set; }
+        string? cupColor { get; set; }
+        decimal price { get; set; }
+        int size { get; set; }
 
-    public void SmartCups(Product product)
-    {
-        Console.WriteLine("1. Purple 8oz" + "\n" + 
-        public int ProductID { get; set; } = 0;
-        public string? Name { get; set; }
-        public decimal Price { get; set; }
-        public int Size { get; set; }
-
+        public Product()
+        {
+            this.color ="colors";
+            this.size ="sizes";
+            this.price = 0;
+        }
+        public Product (string cupName, string cupColor, int size, decimal price )
+	    {
+            SmartCup = cupName;
+            Color = cupColor;
+            Size = size;
+            Cost = price;
+	    }
     }
+ 
+  
 }

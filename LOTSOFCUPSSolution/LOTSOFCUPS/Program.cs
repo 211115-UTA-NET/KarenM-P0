@@ -10,8 +10,12 @@ namespace LOTSOFCUPS
     {
         public static void Main(string[] args)
         {
+            Product cup = new Product();
+
             Console.WriteLine("Hello World");
-            
+            Console.WriteLine("Welcome to LotsOfCups");
+            Console.WriteLine("Please select from the following" );//want to try to add an index to select items
+            Console.ReadLine();
         }
     }
 }

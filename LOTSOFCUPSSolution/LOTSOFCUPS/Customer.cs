@@ -8,5 +8,8 @@ namespace LOTSOFCUPS
 {
     internal class Customer
     {
+        string? customerName = null;
+        string? customerAddress = null;
+
     }
 }

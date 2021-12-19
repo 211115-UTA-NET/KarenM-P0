@@ -1,35 +1,36 @@
 LOTSOFCUPS
 Product(POSSIBLE ADDITIONS smart waterbottle, regular mug, custom, stainless steel, eco, collapsible)
 (total number of products 8 is my inventory. 2 of each)
-+color (can be added)
++color (purple and black)
 +size (two sizes)
 +price (subject to change)
 
-
+*Start with two cups. one purple 8oz and one black 20oz
 
 SMARTCOFFEEMUG
 price $50 each
 __color = purple, grey
-__size = small, big
+__size = 8oz, 20oz
 option 1-4
-1. purple small
-2. purple big
-3. grey small
-4. grey big
+1. purple 8oz
+2. purple 20oz
+3. black 8oz
+4. black 20oz
 if 1
-item is purple small
+item is purple 8oz
 price 50
 
 if 2
-item is purple big
-price 50
+item is purple 20oz
+price 100
 
 if 3 
-item is grey small
+item is grey 8oz
 priec 50
 
 if 4 
-item is grey big
+item is black 20oz
+price 100
 
 else 
 invalid input???

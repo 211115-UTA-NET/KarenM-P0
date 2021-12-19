@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\bin\Debug\net6.0\LOTSOFCUPS_VSCode.exe
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\bin\Debug\net6.0\LOTSOFCUPS_VSCode.deps.json
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\bin\Debug\net6.0\LOTSOFCUPS_VSCode.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\bin\Debug\net6.0\LOTSOFCUPS_VSCode.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\bin\Debug\net6.0\ref\LOTSOFCUPS_VSCode.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\bin\Debug\net6.0\LOTSOFCUPS_VSCode.pdb
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\ref\LOTSOFCUPS_VSCode.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.pdb
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPS_VSCode\obj\Debug\net6.0\LOTSOFCUPS_VSCode.genruntimeconfig.cache

@@ -1,0 +1,25 @@
+This one has SQL connection.
+Reduces cups to two.
+Purple 8oz and 20oz
+
+Might do a Person class so i can have customers, employees, associates, managers.
+But for now just customers.
+
+Tables (Need to be 3NF) 
+Customer
+*ID
+*FirstName
+*LastName
+*address
+*email
+*Password
+
+Items
+*color
+*size
+Store
+
+*itemNumber
+*itemAmount
+
+Inventory

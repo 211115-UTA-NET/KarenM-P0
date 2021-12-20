@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\LotsOfCups2",
-    "\\LotsOfCups2\\LotsOfCups2",
-    "\\LOTSOFCUPSSolution",
-    "\\LOTSOFCUPSSolution\\LOTSOFCUPS",
-    "\\LOTSOFCUPSSolution\\LOTSOFCUPSSolution"
+    "\\LotsOfCups2\\LotsOfCups2"
   ],
-  "SelectedNode": "\\LOTSOFCUPSSolution\\LOTSOFCUPSSolution.sln",
+  "SelectedNode": "\\LotsOfCups2\\LotsOfCups2\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

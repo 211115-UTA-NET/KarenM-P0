@@ -35,7 +35,7 @@ while (reader.Read())
 
 connection.Close();
 
-namespace LOTSOFCUPS
+/*namespace LotsOfCups2
 {
     public class Program
     {
@@ -49,4 +49,4 @@ namespace LOTSOFCUPS
             Console.ReadLine();
         }
     }
-}
+}*/

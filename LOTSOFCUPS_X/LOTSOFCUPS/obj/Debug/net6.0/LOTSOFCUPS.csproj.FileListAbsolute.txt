@@ -1,5 +1,0 @@
-C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPSSolution\LOTSOFCUPS\obj\Debug\net6.0\LOTSOFCUPS.csproj.AssemblyReference.cache
-C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPSSolution\LOTSOFCUPS\obj\Debug\net6.0\LOTSOFCUPS.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPSSolution\LOTSOFCUPS\obj\Debug\net6.0\LOTSOFCUPS.AssemblyInfoInputs.cache
-C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPSSolution\LOTSOFCUPS\obj\Debug\net6.0\LOTSOFCUPS.AssemblyInfo.cs
-C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\LOTSOFCUPSSolution\LOTSOFCUPS\obj\Debug\net6.0\LOTSOFCUPS.csproj.CoreCompileInputs.cache

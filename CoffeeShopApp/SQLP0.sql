@@ -1,24 +1,24 @@
 --To create database
---CREATE DATABASE LotsOfCupsDB
+CREATE DATABASE CoffeeShop
 --To Drop
---DROP DATABASE LotsOFCUpsDB
+--DROP DATABASE CoffeeShop
 
 --DROP TABLE Store;
---DROP TABLE Products;
+--DROP TABLE Coffee;
 --DROP TABLE OrderNumber;
 --DROP TABLE Customer;
 --Tables
 
 CREATE TABLE Store
 (
-    StoreID INT (1,1) PRIMAY KEY,
+    StoreID INT PRIMARY KEY,
     StoreLocation VARCHAR(20) NOT NULL
 );
 
-CREATE TABLE Products
+CREATE TABLE Coffee
 (
     ProductID INT (100) PRIMARY KEY,
-    Details VARCHAR (50),
+    Size VARCHAR (50),
     Price MONEY NOT NULL,
 
 );
@@ -38,7 +38,7 @@ CREATE TABLE Customer
     CustomerId INT NOT NULL IDENTITY, --PK
     FirstName NVARCHAR(40) NOT NULL,
     LastName NVARCHAR(20) NOT NULL,
-    MailingAddress NVARCHAR(70),
+	Email NVARCHAR(20) NOT NULL,
     Phone NVARCHAR(24),
     Email NVARCHAR(60) NOT NULL,
     CONSTRAINT [PK_Customer] PRIMARY KEY CLUSTERED ([CustomerId])

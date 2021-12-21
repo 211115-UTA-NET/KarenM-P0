@@ -24,6 +24,10 @@ namespace CoffeeShopApp.App
             Customer newCustomer = new Customer();
             newCustomer.CustomerName();
 
+            Order newOrder = new Order();
+            newOrder.CustomerOrder();
+
+
             //version 1
             //Console.WriteLine("Enter First Name" + nameFirst);
             //Console.ReadLine();
@@ -31,6 +35,10 @@ namespace CoffeeShopApp.App
             //Console.WriteLine("Enter Last Name" + nameLast);
             //Console.ReadLine();
 
+
+            //Version 2
+            //Order newOrder = new Order();
+            //newOrder.OrderNumber();
 
 
         }

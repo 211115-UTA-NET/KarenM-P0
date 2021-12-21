@@ -8,7 +8,7 @@ namespace CoffeeShopApp.App
 {
     public class Customer
     {
-        //12/20/21 first attempt to get program to call this
+        //Version 1- 12/20/21 first attempt to get program to call this
         //public string nameFirst = "";
         //public string nameLast = "";
         ////public string nameFirst { get; private set; }
@@ -23,7 +23,6 @@ namespace CoffeeShopApp.App
         //{ 
         //    nameFirst = v;
         //    nameLast = v;
-
 
         //    throw new NotImplementedException();
         //}
@@ -50,7 +49,7 @@ namespace CoffeeShopApp.App
         }
       
 
-        
+        //version 1
         //public void CustomerName()
         //{
         //    Console.WriteLine($"{firstName} {lastName}");

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CoffeeShopApp.App
 {
-    public enum Coffee
+    public enum Coffee 
     {
         Small, //0
         Medium, //1
         Large, //2
     }
+
 }

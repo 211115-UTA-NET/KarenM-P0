@@ -2,32 +2,40 @@
 
 namespace CoffeeShopApp.App
 {
-
-    
+  
     public class Order
     {
-        
-        public void Ordering()
+        //field for adding total coffees togeher.
+        private decimal orderTotal;
+        public Order()
         {
-            //Logic, Call methods in order of how i need them!
-            welcomeMessage();
-
-            itemSold("Small Coffee", 2m);
-            itemSold("Medium Coffee", 4m);
-            itemSold("Large Coffee", 8m);
-
-
-            displayGoodbyeMessage();
-
-            
+            orderTotal = 0;
         }
 
 
-       
+
+        public void Ordering()
+        {
+            //Logic, Call methods in order of how i need them!
+            welcomeMessage();       //First
+
+            
+            //Want to give user total after every order
+            itemSold("Small Coffee", 2m);
+            coffeeCartTotal();
+            itemSold("Medium Coffee", 4m);
+            coffeeCartTotal();
+            itemSold("Large Coffee", 8m);
+            coffeeCartTotal();
+
+            displayGoodbyeMessage();    //Last        
+        }
+
+
         //Diplay options
         private void welcomeMessage()
         {
-            string s = "Welcome to the coffee shop." +
+            string s = "\n"+ "Welcome to the coffee shop." +
                         "****This is the menu****." +
                         "1)Small Coffee $2.2)Medium Coffee $4.3)Large Coffee $8";
                 s = s.Replace(".", ".\n");
@@ -56,12 +64,14 @@ namespace CoffeeShopApp.App
                 {
                     int quantity = Convert.ToInt32(numItems);
                     //This is the calculation
-                    decimal orderTotal = price * quantity;
-                    Console.WriteLine($"{quantity} x {coffeeSize}s is {orderTotal:C2}");
+                    decimal totalCoffee = price * quantity;
+                    orderTotal += totalCoffee;
+     
+                    Console.WriteLine($"{quantity} x {coffeeSize}s is {totalCoffee:C2}");
 
                 }
 
-                catch(FormatException)
+                catch (FormatException)
                 {
                     Console.WriteLine("Invalid input, please try again");
                     itemSold(coffeeSize, price);///Recursion used to ask again 
@@ -74,18 +84,17 @@ namespace CoffeeShopApp.App
                     itemSold(coffeeSize, price);///Recursion used to ask again 
                     return;
                 }
-
-
-
             }
             else
             {
                 Console.WriteLine("Oh you dont want any coffee?");
             }
-        }
-        private void orderTotal()
-        {
 
+        
+        }
+        private void coffeeCartTotal()
+        {
+            Console.WriteLine($"Current total is {orderTotal:C2}!");
         }
 
         private static void displayGoodbyeMessage()

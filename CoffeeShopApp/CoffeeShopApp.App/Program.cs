@@ -69,9 +69,11 @@ namespace CoffeeShopApp.App
             Customer newCustomer = new Customer();
             newCustomer.CustomerName();
 
+            //Version3
             //Order newOrder = new Order();
             //newOrder.CustomerOrder();
 
+            //version 4 12/21
             Order newOrder = new Order();
             newOrder.Ordering();
 

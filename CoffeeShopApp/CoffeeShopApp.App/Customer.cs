@@ -1,4 +1,4 @@
-﻿//12/21/2021 Could make a Person class the Customer could derive from.
+﻿//12/20/2021 Could make a Person class the Customer could derive from.
 //That will give me the option to add employees as well.
 
 namespace CoffeeShopApp.App
@@ -44,7 +44,9 @@ namespace CoffeeShopApp.App
         public void CustomerName()
         {
             string customername = null;
-            Console.WriteLine("Whats your name");
+            Console.WriteLine("What's your first name");
+            customername = Console.ReadLine();
+            Console.WriteLine("What's your last name");
             customername = Console.ReadLine();
         }
       

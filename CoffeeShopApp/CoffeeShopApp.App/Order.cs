@@ -2,7 +2,7 @@
 
 namespace CoffeeShopApp.App
 {
-  
+
     public class Order
     {
         //field for adding total coffees togeher.
@@ -19,7 +19,7 @@ namespace CoffeeShopApp.App
             //Logic, Call methods in order of how i need them!
             welcomeMessage();       //First
 
-            
+
             //Want to give user total after every order
             itemSold("Small Coffee", 2m);
             coffeeCartTotal();
@@ -35,10 +35,10 @@ namespace CoffeeShopApp.App
         //Diplay options
         private void welcomeMessage()
         {
-            string s = "\n"+ "Welcome to the coffee shop." +
+            string s = "\n" + "Welcome to the coffee shop." +
                         "****This is the menu****." +
-                        "1)Small Coffee $2.2)Medium Coffee $4.3)Large Coffee $8";
-                s = s.Replace(".", ".\n");
+                        "  Small Coffee $2.  Medium Coffee $4.  Large Coffee $8. ";
+            s = s.Replace(".", ".\n");
             //Console.WriteLine("*********************************************");
             Console.WriteLine(s);
             //Console.WriteLine("Please press enter to continue");
@@ -54,11 +54,11 @@ namespace CoffeeShopApp.App
             string response = Console.ReadLine().ToUpper();
             if (response.StartsWith("Y"))
             {
-                
-                
-               Console.WriteLine("How many coffees would you like?");
-               string numItems = Console.ReadLine();
-               
+
+
+                Console.WriteLine("How many coffees would you like?");
+                string numItems = Console.ReadLine();
+
 
                 try
                 {
@@ -66,7 +66,7 @@ namespace CoffeeShopApp.App
                     //This is the calculation
                     decimal totalCoffee = price * quantity;
                     orderTotal += totalCoffee;
-     
+
                     Console.WriteLine($"{quantity} x {coffeeSize}s is {totalCoffee:C2}");
 
                 }
@@ -78,7 +78,7 @@ namespace CoffeeShopApp.App
 
                     return;
                 }
-                catch(OverflowException)
+                catch (OverflowException)
                 {
                     Console.WriteLine("Invalid input, please try again");
                     itemSold(coffeeSize, price);///Recursion used to ask again 
@@ -90,18 +90,21 @@ namespace CoffeeShopApp.App
                 Console.WriteLine("Oh you dont want any coffee?");
             }
 
-        
+
         }
         private void coffeeCartTotal()
         {
             Console.WriteLine($"Current total is {orderTotal:C2}!");
         }
 
+        
         private static void displayGoodbyeMessage()
         {
+
             Console.WriteLine("Have a wonderul day");
             Console.WriteLine("Goodbybe");
-            Console.ReadKey();
+            Console.ReadLine();
         }
+       
     }
 }

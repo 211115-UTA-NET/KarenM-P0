@@ -23,7 +23,7 @@ namespace CoffeeShopApp.App
 
         //    throw new NotImplementedException();
         //}
-        
+
         //Version 2
         private string firstName;
         private string lastName;
@@ -39,17 +39,27 @@ namespace CoffeeShopApp.App
         {
             firstName = "Coffee";
             lastName = "Shop";
-            
+
         }
         public void CustomerName()
         {
+            // //Add excetion here
+            //try
+            //{
             string customername = null;
-            Console.WriteLine("What's your first name");
+            Console.WriteLine("What's your first name?");
             customername = Console.ReadLine();
-            Console.WriteLine("What's your last name");
+            Console.WriteLine("What's your last name?");
             customername = Console.ReadLine();
+               //}
+            //catch(cexception)
+            //{
+            //Console.WriteLine("Invalid name input, please try again")
+            //CustomerName();
+            //return;
+            //}   
         }
-      
+
 
         //version 1
         //public void CustomerName()

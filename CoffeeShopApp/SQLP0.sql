@@ -23,10 +23,7 @@ CREATE TABLE Inventory
 	Quantity INT, 
 	CoffeeID INT FOREIGN KEY REFERENCES Coffee(ProductID) 
 	
-	--Inventory StoreId Quantity CoffeeID Products
-	--1			1		10			1
-	--3			1		5			4
-	--2			2		20			1	
+
 );
 
 CREATE TABLE Coffee
@@ -59,6 +56,7 @@ CREATE TABLE Customer
 SELECT * FROM Store;
 SELECT * FROM Coffee;
 SELECT * FROM [Order];
+SELECT * FROM Customer;
 
 INSERT Coffee
 	(ProductID, Size, Price)
@@ -74,3 +72,9 @@ VALUES
 	(2,  1,	3),
 	(3, 2, 15);
 	
+INSERT Customer
+(CustomerId, FirstName, LastName, Email, Phone)
+VALUES
+(001, 'Bat', 'Man', 'bats@gmail.com', 123-456-7890),
+(002, 'Spider', 'Man', 'spidy@gmail.com' 111-456-7890),
+(003, 'Wonder', 'Woman', 'wonder@gmail.com', 222-456-7890);

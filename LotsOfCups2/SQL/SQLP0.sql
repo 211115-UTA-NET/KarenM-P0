@@ -11,7 +11,7 @@
 
 CREATE TABLE Store
 (
-    StoreID INT (1,1) PRIMAY KEY,
+    StoreID INT (1,1) PRIMARY KEY,
     StoreLocation VARCHAR(20) NOT NULL
 );
 

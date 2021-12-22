@@ -23,18 +23,20 @@ namespace CoffeeShopApp.App
         //    string connectionString = File.ReadAllText("C:/Users/mkare_wyte20y/Revature/DQL_Database.txt");
         //    using SqlConnection connection = new(connectionString);
         //    connection.Open();
+
+        //need to add exception for connection issue
         //}
 
         public static void Main(string[] args)
         {
           
-            ////REading to database using DataReader
+            ////Reading to database using DataReader
             //static void HasRows(SqlConnection connection)
             //{
             //    using (connection)
             //    {
             //        SqlCommand command = new SqlCommand(
-            //          "SELECT CategoryID, CategoryName FROM Categories;",
+            //          "SELECT Store, CategoryName FROM Categories;",
             //          connection);
             //        connection.Open();
 
@@ -50,7 +52,7 @@ namespace CoffeeShopApp.App
             //        }
             //        else
             //        {
-            //            Console.WriteLine("No rows found.");
+            //            Console.WriteLine("If you reading this its connected.");
             //        }
             //        reader.Close();
             //    }

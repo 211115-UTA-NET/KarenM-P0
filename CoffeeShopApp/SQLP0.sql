@@ -56,6 +56,9 @@ CREATE TABLE Customer
     CONSTRAINT [PK_Customer] PRIMARY KEY CLUSTERED ([CustomerId])
 );
 
+SELECT * FROM Store;
+SELECT * FROM Coffee;
+SELECT * FROM [Order];
 
 INSERT Coffee
 	(ProductID, Size, Price)

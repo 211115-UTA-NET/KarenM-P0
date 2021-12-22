@@ -1,10 +1,6 @@
 ﻿////Need to change this to order. Size will be in class Coffee 12/20/2021
 ////12/21/2021 need to add to order and also add the total.
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+
 
 //namespace CoffeeShopApp.App
 //{

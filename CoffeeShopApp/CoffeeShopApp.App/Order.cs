@@ -1,30 +1,89 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace CoffeeShopApp.App
 {
+
+    
     public class Order
     {
-        public void Run()
+        
+        public void Ordering()
         {
-            //Logic
+            //Logic, Call methods in order of how i need them!
+            welcomeMessage();
+
+            itemSold("Small Coffee", 2m);
+            itemSold("Medium Coffee", 4m);
+            itemSold("Large Coffee", 8m);
+
+
             displayGoodbyeMessage();
+
+            
         }
 
+
+       
         //Diplay options
-        private void Options()
+        private void welcomeMessage()
         {
-
+            string s = "Welcome to the coffee shop." +
+                        "****This is the menu****." +
+                        "1)Small Coffee $2.2)Medium Coffee $4.3)Large Coffee $8";
+                s = s.Replace(".", ".\n");
+            //Console.WriteLine("*********************************************");
+            Console.WriteLine(s);
+            //Console.WriteLine("Please press enter to continue");
+            //Console.ReadLine();
         }
+        //Console.WriteLine("1.Small Coffee@2.Medium Coffee@3Large Coffee");
+        //Console.WriteLine("**********************************************");
 
-        private void itemsold()
+
+        private void itemSold(string coffeeSize, decimal price)
         {
+            Console.WriteLine($"Would you like to order {coffeeSize} for {price:C2} (y/n)");
+            string response = Console.ReadLine().ToUpper();
+            if (response.StartsWith("Y"))
+            {
+                
+                
+               Console.WriteLine("How many coffees would you like?");
+               string numItems = Console.ReadLine();
+               
 
+                try
+                {
+                    int quantity = Convert.ToInt32(numItems);
+                    //This is the calculation
+                    decimal orderTotal = price * quantity;
+                    Console.WriteLine($"{quantity} x {coffeeSize}s is {orderTotal:C2}");
+
+                }
+
+                catch(FormatException)
+                {
+                    Console.WriteLine("Invalid input, please try again");
+                    itemSold(coffeeSize, price);///Recursion used to ask again 
+
+                    return;
+                }
+                catch(OverflowException)
+                {
+                    Console.WriteLine("Invalid input, please try again");
+                    itemSold(coffeeSize, price);///Recursion used to ask again 
+                    return;
+                }
+
+
+
+            }
+            else
+            {
+                Console.WriteLine("Oh you dont want any coffee?");
+            }
         }
-        private void OrderTotal()
+        private void orderTotal()
         {
 
         }

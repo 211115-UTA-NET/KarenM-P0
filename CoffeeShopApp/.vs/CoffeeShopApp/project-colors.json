@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "76a820ac-24d6-4feb-8c69-dba002bf0a45": {
+      "ProjectGuid": "76a820ac-24d6-4feb-8c69-dba002bf0a45",
+      "DisplayName": "CoffeeShopApp.App",
+      "ColorIndex": 0
+    },
+    "16ba7248-5649-41c5-90fa-18b19da5b873": {
+      "ProjectGuid": "16ba7248-5649-41c5-90fa-18b19da5b873",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

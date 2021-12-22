@@ -2,14 +2,15 @@
 
 using System.Data.SqlClient;
 
+
+
+
 namespace CoffeeShopApp.App
 {
     public class Program
     {
 
-        //Add connection to database here
-        string connectionString = File.ReadAllText("C:/Users/mkare_wyte20y/Revature/DQL_Database.txt");
-       
+
 
     public static void Main(string[] args)
         {
@@ -20,12 +21,15 @@ namespace CoffeeShopApp.App
             //string nameFirst = ""; 
             //string nameLast = "";
 
-
+            //Version 3
             Customer newCustomer = new Customer();
             newCustomer.CustomerName();
 
+            //Order newOrder = new Order();
+            //newOrder.CustomerOrder();
+
             Order newOrder = new Order();
-            newOrder.CustomerOrder();
+            newOrder.Ordering();
 
 
             //version 1
@@ -41,6 +45,25 @@ namespace CoffeeShopApp.App
             //newOrder.OrderNumber();
 
 
+            ////Loop to keep letting customer shop
+            //while (customerStillOrdering)
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("Would you like to order another coffee?");
+            //    Console.WriteLine("Would you like your total");
+
+
+
+            //}
+
+            //
+            //public void sqlConnection()
+            //{
+            //    //Add connection to database here
+            //    string connectionString = File.ReadAllText("C:/Users/mkare_wyte20y/Revature/DQL_Database.txt");
+            //    using SqlConnection connection = new(connectionString);
+            //    connection.Open();
+            //}
         }
 
 

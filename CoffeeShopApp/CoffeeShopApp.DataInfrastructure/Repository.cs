@@ -10,7 +10,7 @@ namespace CoffeeShopApp.DataInfrastructure
     {
 
         //Database context
-        protected readonly CoffeeShopAppDbContext context;
+        protected readonly CoffeeShopAppDbContext context; //still havent added a dbcontext
 
         //Constructor
         public Repository(CoffeeShopAppContext context)

@@ -14,11 +14,12 @@ namespace CoffeeShopApp.App
 
         public static IRepository? repository
         {
-            get => _repository = null
+            get
+            {
+                return _repository = null;
+            }
 
-            return _repository;
-            set { _repository = value; }
-
+     
         }
         public Order()
         {

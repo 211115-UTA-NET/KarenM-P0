@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using CoffeeShopApp.DataInfrastructure;
-
+using CoffeeShopApp.Logic;
 
 namespace CoffeeShopApp.App
 {
@@ -18,7 +18,7 @@ namespace CoffeeShopApp.App
 
         public static void Main(string[] args)
         {
-            IRepository repository = new SqlRepository(connectionString);
+            IRepository repository = new SqlRepository(connectionString);//need to fix
             ////Reading to database using DataReader
             static void HasRows(SqlConnection connection)
             {

@@ -52,6 +52,18 @@ CREATE TABLE Customer
     Phone NVARCHAR(24),
     CONSTRAINT [PK_Customer] PRIMARY KEY CLUSTERED ([CustomerId])
 );
+--trying to implement it to my customer i like the idead of autoincrement id
+--when new cusotmer is created
+--create table student 
+--(
+--id integer primary key autoincrement, 
+--student_name NVARCHAR 50 not null, 
+--dept varchar2(10), 
+--major_subject varchar2(10), 
+--student_id varchar2(50), 
+--email varchar2(50) not null, 
+--pwdhash binary(64) not null);
+
 
 SELECT * FROM Store;
 SELECT * FROM Coffee;
@@ -75,6 +87,6 @@ VALUES
 INSERT Customer
 (CustomerId, FirstName, LastName, Email, Phone)
 VALUES
-(001, 'Bat', 'Man', 'bats@gmail.com', 123-456-7890),
-(002, 'Spider', 'Man', 'spidy@gmail.com' 111-456-7890),
-(003, 'Wonder', 'Woman', 'wonder@gmail.com', 222-456-7890);
+(01, 'Bat', 'Man', 'bats@gmail.com', 123-456-7890),
+(02, 'Spider', 'Man', 'spidy@gmail.com' 111-456-7890),
+(03, 'Wonder', 'Woman', 'wonder@gmail.com', 222-456-7890);

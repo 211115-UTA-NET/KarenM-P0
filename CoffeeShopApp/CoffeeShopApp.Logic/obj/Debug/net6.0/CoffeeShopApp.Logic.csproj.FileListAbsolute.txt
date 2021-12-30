@@ -1,0 +1,11 @@
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\bin\Debug\net6.0\CoffeeShopApp.Logic.deps.json
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\bin\Debug\net6.0\CoffeeShopApp.Logic.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\bin\Debug\net6.0\ref\CoffeeShopApp.Logic.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\bin\Debug\net6.0\CoffeeShopApp.Logic.pdb
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\obj\Debug\net6.0\CoffeeShopApp.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\obj\Debug\net6.0\CoffeeShopApp.Logic.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\obj\Debug\net6.0\CoffeeShopApp.Logic.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\obj\Debug\net6.0\CoffeeShopApp.Logic.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\obj\Debug\net6.0\CoffeeShopApp.Logic.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\obj\Debug\net6.0\ref\CoffeeShopApp.Logic.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.Logic\obj\Debug\net6.0\CoffeeShopApp.Logic.pdb

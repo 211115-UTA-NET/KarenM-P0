@@ -1,12 +1,25 @@
 ﻿
 
+using CoffeeShopApp.DataInfrastructure;
+
 namespace CoffeeShopApp.App
 {
 
     public class Order
     {
-        //field for adding total coffees togeher.
+        //field for adding total coffees together.
         private decimal orderTotal;
+        List<Order> orders;
+        private static IRepository? _repository;
+
+        public static IRepository? repository
+        {
+            get => _repository = null
+
+            return _repository;
+            set { _repository = value; }
+
+        }
         public Order()
         {
             orderTotal = 0;

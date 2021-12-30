@@ -130,6 +130,29 @@
             "rid": "win"
           }
         }
+      },
+      "CoffeeShopApp.DataInfrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CoffeeShopApp.Logic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CoffeeShopApp.DataInfrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoffeeShopApp.DataInfrastructure.dll": {}
+        }
+      },
+      "CoffeeShopApp.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CoffeeShopApp.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoffeeShopApp.Logic.dll": {}
+        }
       }
     }
   },
@@ -446,10 +469,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CoffeeShopApp.DataInfrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CoffeeShopApp.DataInfrastructure/CoffeeShopApp.DataInfrastructure.csproj",
+      "msbuildProject": "../CoffeeShopApp.DataInfrastructure/CoffeeShopApp.DataInfrastructure.csproj"
+    },
+    "CoffeeShopApp.Logic/1.0.0": {
+      "type": "project",
+      "path": "../CoffeeShopApp.Logic/CoffeeShopApp.Logic.csproj",
+      "msbuildProject": "../CoffeeShopApp.Logic/CoffeeShopApp.Logic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CoffeeShopApp.DataInfrastructure >= 1.0.0",
+      "CoffeeShopApp.Logic >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
     ]
   },
@@ -479,7 +514,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mkare_wyte20y\\Revature\\Project0\\KarenM-P0\\CoffeeShopApp\\CoffeeShopApp.DataInfrastructure\\CoffeeShopApp.DataInfrastructure.csproj": {
+              "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\Project0\\KarenM-P0\\CoffeeShopApp\\CoffeeShopApp.DataInfrastructure\\CoffeeShopApp.DataInfrastructure.csproj"
+            },
+            "C:\\Users\\mkare_wyte20y\\Revature\\Project0\\KarenM-P0\\CoffeeShopApp\\CoffeeShopApp.Logic\\CoffeeShopApp.Logic.csproj": {
+              "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\Project0\\KarenM-P0\\CoffeeShopApp\\CoffeeShopApp.Logic\\CoffeeShopApp.Logic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

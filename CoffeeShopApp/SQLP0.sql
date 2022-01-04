@@ -87,6 +87,15 @@ VALUES
 INSERT Customer
 (CustomerId, FirstName, LastName, Email, Phone)
 VALUES
-(01, 'Bat', 'Man', 'bats@gmail.com', 123-456-7890),
-(02, 'Spider', 'Man', 'spidy@gmail.com' 111-456-7890),
-(03, 'Wonder', 'Woman', 'wonder@gmail.com', 222-456-7890);
+(01, 'Bat', 'Man', 'bats@gmail.com', '123-456-7890'),
+(02, 'Spider', 'Man', 'spidy@gmail.com', '111-456-7890'),
+(03, 'Wonder', 'Woman', 'wonder@gmail.com', '222-456-7890');
+
+INSERT Store
+(storeID, storeLocation )
+VALUES
+(01, 'Gotham'),
+(02, 'New York'),
+(03, 'Wonderland');
+
+SELECT * FROM Store;

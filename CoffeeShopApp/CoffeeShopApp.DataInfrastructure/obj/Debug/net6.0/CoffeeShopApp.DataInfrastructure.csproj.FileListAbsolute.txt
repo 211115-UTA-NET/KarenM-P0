@@ -2,3 +2,4 @@ C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.D
 C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.AssemblyInfoInputs.cache
 C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.AssemblyInfo.cs
 C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.csproj.AssemblyReference.cache

@@ -7,17 +7,22 @@ using System.Data.SqlClient;
 using CoffeeShopApp.DataInfrastructure;
 using CoffeeShopApp.Logic;
 
+
+
 namespace CoffeeShopApp.App
 {
     public class Program
     {
         string connectionString = File.ReadAllText("C:/Users/mkare_wyte20y/Revature/DQL_Database.txt");
+        
         //need to add exception for connection issue
         
-
+      
         public static void Main(string[] args)
         {
-            IRepository repository = new SqlRepository(connectionString);//need to fix
+           
+            //IRepository repository = new SqlRepository(connectionString);//need to fix
+
             ////Reading to database using DataReader
             static void HasRows(SqlConnection connection)
             {
@@ -50,7 +55,7 @@ namespace CoffeeShopApp.App
 
 
             //Version 3
-            Customer newCustomer = new Customer();
+            Customers newCustomer = new Customers();
             newCustomer.CustomerName();
 
 

@@ -10,18 +10,6 @@ namespace CoffeeShopApp.Logic
     {
         //field for adding total coffees together.
         private decimal orderTotal;
-        List<Order> orders;
-        private static IRepository? _repository;
-
-        public static IRepository? repository
-        {
-            get
-            {
-                return _repository = null;
-            }
-
-
-        }
         public Order()
         {
             orderTotal = 0;
@@ -117,7 +105,7 @@ namespace CoffeeShopApp.Logic
         {
 
             Console.WriteLine("Have a wonderul day");
-            Console.WriteLine("Goodbybe");
+            Console.WriteLine("Goodbye");
             Console.ReadKey();
         }
 

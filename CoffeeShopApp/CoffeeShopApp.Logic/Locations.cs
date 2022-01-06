@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace CoffeeShopApp.Logic
 {
-    public class Location
+    public class Locations
     {
-        public int locationId { get;}
-        public Location(int ID, string locationName)
+        private int locaionId;
+
+        private int locationId { get;}
+        public Locations(int ID, string locationName)
         {
             locaionId = ID;
             locationName = locationName;

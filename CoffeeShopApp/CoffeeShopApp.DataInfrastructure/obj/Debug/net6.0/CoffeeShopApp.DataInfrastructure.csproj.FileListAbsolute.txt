@@ -3,3 +3,13 @@ C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.D
 C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.AssemblyInfo.cs
 C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.csproj.CoreCompileInputs.cache
 C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\bin\Debug\net6.0\CoffeeShopApp.DataInfrastructure.deps.json
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\bin\Debug\net6.0\CoffeeShopApp.DataInfrastructure.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\bin\Debug\net6.0\ref\CoffeeShopApp.DataInfrastructure.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\bin\Debug\net6.0\CoffeeShopApp.DataInfrastructure.pdb
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\bin\Debug\net6.0\CoffeeShopApp.Logic.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\bin\Debug\net6.0\CoffeeShopApp.Logic.pdb
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.csproj.CopyComplete
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\ref\CoffeeShopApp.DataInfrastructure.dll
+C:\Users\mkare_wyte20y\Revature\Project0\KarenM-P0\CoffeeShopApp\CoffeeShopApp.DataInfrastructure\obj\Debug\net6.0\CoffeeShopApp.DataInfrastructure.pdb
